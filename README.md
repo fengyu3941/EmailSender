@@ -16,7 +16,7 @@ HOW TO COMPILE
 		const std::string& SenderMail,		// your email address
 		const std::string& ReplyTo);		// the same as below or another email address
 		
-2. some smtp server name, port, and security type
+3. some smtp server name, port, and security type
 
 	smtp.gmail.com,	587,	USE_TLS
 	smtp.gmail.com,	465,	USE_SSL
