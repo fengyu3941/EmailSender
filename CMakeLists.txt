@@ -1,0 +1,5 @@
+PROJECT(EmailSender)
+cmake_minimum_required(VERSION 3.3)
+INCLUDE_DIRECTORIES(${CMAKE_CURRENT_SOURCE_DIR}/openssl-1.0.1t-vs2015/include64)
+LINK_DIRECTORIES(${CMAKE_CURRENT_SOURCE_DIR}/openssl-1.0.1t-vs2015/lib64)
+ADD_EXECUTABLE(EmailSender main.cpp base64.cpp base64.h EmailSender.cpp EmailSender.h md5.h md5.cpp CSmtp.h CSmtp.cpp)
